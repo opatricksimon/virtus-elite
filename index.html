@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtus Elite | Comunidade de Crescimento Digital</title>
+    <meta name="description" content="Aprenda a vender todos os dias usando Reels estratégicos. Marketing, Vendas, Conteúdo e Mentalidade em uma única comunidade.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Background Effects -->
+    <div class="bg-noise"></div>
+    <div class="bg-gradient-top"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">V</span>
+                <span class="logo-text">Virtus<span class="gold">Elite</span></span>
+            </a>
+            <nav class="nav-links">
+                <a href="#metodo">Método</a>
+                <a href="#comunidade">Comunidade</a>
+                <a href="#preco">Investimento</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <a href="#preco" class="btn-header">
+                <span>Quero Entrar</span>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#metodo">Método</a>
+        <a href="#comunidade">Comunidade</a>
+        <a href="#preco">Investimento</a>
+        <a href="#faq">FAQ</a>
+        <a href="#preco" class="btn-mobile">Quero Entrar</a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-glow"></div>
+            <div class="hero-particles" id="particles"></div>
+            <div class="container hero-content">
+                <div class="badge animate-fade-up">
+                    <span class="badge-dot"></span>
+                    <span>+200 membros ativos</span>
+                </div>
+                <h1 class="hero-title animate-fade-up delay-1">
+                    Aprenda a vender <span class="text-gradient">todos os dias</span> usando Reels estratégicos
+                </h1>
+                <p class="hero-subtitle animate-fade-up delay-2">
+                    Sem depender de tráfego pago. Sem aparecer 24 horas. Sem fazer dancinhas.
+                    <br>Apenas estratégia, conteúdo inteligente e execução.
+                </p>
+                <div class="hero-cta animate-fade-up delay-3">
+                    <a href="#preco" class="btn-primary">
+                        <span>Entrar na Comunidade</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <span class="hero-price">12x de <strong>R$ 39</strong> ou R$ 397 à vista</span>
+                </div>
+                <div class="hero-proof animate-fade-up delay-4">
+                    <div class="avatars">
+                        <div class="avatar">M</div>
+                        <div class="avatar">J</div>
+                        <div class="avatar">A</div>
+                        <div class="avatar">+</div>
+                    </div>
+                    <div class="proof-text">
+                        <span class="proof-names">Marina, João, Ana e outros</span>
+                        <span class="proof-action">entraram essa semana</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <span>Role para descobrir</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section class="problem">
+            <div class="container">
+                <div class="problem-header reveal">
+                    <div class="alert-badge">
+                        <span class="alert-dot"></span>
+                        <span>Isso soa familiar?</span>
+                    </div>
+                    <h2 class="section-title">
+                        Você posta, posta, posta... <br><span class="text-red">e ninguém compra.</span>
+                    </h2>
+                </div>
+                <div class="problem-grid">
+                    <div class="problem-visual reveal">
+                        <div class="terminal">
+                            <div class="terminal-header">
+                                <div class="terminal-dots">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                </div>
+                                <span class="terminal-title">sua_realidade_atual.log</span>
+                            </div>
+                            <div class="terminal-body">
+                                <div class="log-item">
+                                    <span class="log-time">08:00</span>
+                                    <span class="log-warning">Acordou sem saber o que postar</span>
+                                </div>
+                                <div class="log-item">
+                                    <span class="log-time">10:30</span>
+                                    <span class="log-error">Passou 2h editando um Reel que flopou</span>
+                                </div>
+                                <div class="log-item">
+                                    <span class="log-time">14:00</span>
+                                    <span class="log-warning">Olhou o concorrente viralizar</span>
+                                </div>
+                                <div class="log-item">
+                                    <span class="log-time">17:45</span>
+                                    <span class="log-error">Recebeu 0 mensagens de clientes</span>
+                                </div>
+                                <div class="log-item">
+                                    <span class="log-time">21:00</span>
+                                    <span class="log-error">Pensou em desistir (de novo)</span>
+                                </div>
+                                <div class="terminal-cursor"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="problem-list">
+                        <div class="problem-item reveal">
+                            <div class="problem-icon">
+                                <i class="fas fa-times-circle"></i>
+                            </div>
+                            <div>
+                                <h4>Cria conteúdo no escuro</h4>
+                                <p>Posta sem estratégia, sem saber o que funciona, torcendo para alguém ver.</p>
+                            </div>
+                        </div>
+                        <div class="problem-item reveal">
+                            <div class="problem-icon">
+                                <i class="fas fa-times-circle"></i>
+                            </div>
+                            <div>
+                                <h4>Não sabe vender sem parecer vendedor</h4>
+                                <p>Tem medo de oferecer, acha que incomoda, e acaba não vendendo nada.</p>
+                            </div>
+                        </div>
+                        <div class="problem-item reveal">
+                            <div class="problem-icon">
+                                <i class="fas fa-times-circle"></i>
+                            </div>
+                            <div>
+                                <h4>Vê todo mundo crescendo, menos você</h4>
+                                <p>Parece que tem um segredo que você não sabe. E tem mesmo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solution Section -->
+        <section class="solution">
+            <div class="container">
+                <div class="solution-header reveal">
+                    <div class="badge-green">
+                        <i class="fas fa-check"></i>
+                        <span>A solução</span>
+                    </div>
+                    <h2 class="section-title">
+                        E se você soubesse <span class="text-gradient">exatamente</span> o que fazer?
+                    </h2>
+                    <p class="section-subtitle">
+                        Imagina abrir o Instagram com clareza total. Saber qual conteúdo criar, como criar, 
+                        e ver as vendas chegando no direct — todos os dias.
+                    </p>
+                </div>
+                <div class="solution-visual reveal">
+                    <div class="phone-mockup">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <div class="notification">
+                                <div class="notif-icon green">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </div>
+                                <div class="notif-content">
+                                    <span class="notif-title">Nova venda! 🎉</span>
+                                    <span class="notif-text">Cliente veio pelo Reel de ontem</span>
+                                </div>
+                                <span class="notif-time">Agora</span>
+                            </div>
+                            <div class="notification">
+                                <div class="notif-icon blue">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                                <div class="notif-content">
+                                    <span class="notif-title">Direct novo</span>
+                                    <span class="notif-text">"Oi! Quanto custa sua mentoria?"</span>
+                                </div>
+                                <span class="notif-time">2min</span>
+                            </div>
+                            <div class="notification">
+                                <div class="notif-icon purple">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="notif-content">
+                                    <span class="notif-title">Reel bombando</span>
+                                    <span class="notif-text">+15.4k visualizações</span>
+                                </div>
+                                <span class="notif-time">1h</span>
+                            </div>
+                            <div class="notification">
+                                <div class="notif-icon green">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </div>
+                                <div class="notif-content">
+                                    <span class="notif-title">Nova venda! 🎉</span>
+                                    <span class="notif-text">+R$ 497 na conta</span>
+                                </div>
+                                <span class="notif-time">3h</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Method Section -->
+        <section class="method" id="metodo">
+            <div class="container">
+                <div class="method-header reveal">
+                    <span class="section-tag">MÉTODO EXCLUSIVO</span>
+                    <h2 class="section-title">
+                        O Método <span class="text-gradient">Reels Estratégicos</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Não é sobre postar mais. É sobre postar certo.<br>
+                        Um sistema validado para transformar conteúdo em clientes.
+                    </p>
+                </div>
+                <div class="method-grid">
+                    <div class="method-card reveal">
+                        <div class="method-number">01</div>
+                        <div class="method-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Gancho Magnético</h3>
+                        <p>Os 3 primeiros segundos decidem tudo. Aprenda a criar ganchos impossíveis de ignorar.</p>
+                    </div>
+                    <div class="method-card reveal">
+                        <div class="method-number">02</div>
+                        <div class="method-icon">
+                            <i class="fas fa-scroll"></i>
+                        </div>
+                        <h3>Roteiro Estratégico</h3>
+                        <p>Estruturas prontas que prendem a atenção do início ao fim e levam para a ação.</p>
+                    </div>
+                    <div class="method-card reveal">
+                        <div class="method-number">03</div>
+                        <div class="method-icon">
+                            <i class="fas fa-funnel-dollar"></i>
+                        </div>
+                        <h3>CTA Invisível</h3>
+                        <p>Faça as pessoas desejarem comprar sem você precisar "vender". A arte da persuasão elegante.</p>
+                    </div>
+                    <div class="method-card featured reveal">
+                        <div class="method-number">04</div>
+                        <div class="method-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3>Sistema de Repetição</h3>
+                        <p>Crie uma vez, use sempre. Templates e padrões que você replica infinitamente.</p>
+                        <div class="card-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pillars Section -->
+        <section class="pillars" id="pilares">
+            <div class="container">
+                <div class="pillars-header reveal">
+                    <span class="section-tag">OS 5 PILARES</span>
+                    <h2 class="section-title">
+                        Tudo que você precisa em <span class="text-gradient">um só lugar</span>
+                    </h2>
+                </div>
+                <div class="pillars-grid">
+                    <div class="pillar-card reveal">
+                        <div class="pillar-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <span class="pillar-tag">25%</span>
+                        <h3>Reels Estratégicos</h3>
+                        <p>Domine a arte de criar conteúdos que viralizam e vendem no piloto automático.</p>
+                    </div>
+                    <div class="pillar-card reveal">
+                        <div class="pillar-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <span class="pillar-tag">20%</span>
+                        <h3>Marketing Digital</h3>
+                        <p>Estratégias de atração e posicionamento para ser encontrado pelo cliente certo.</p>
+                    </div>
+                    <div class="pillar-card reveal">
+                        <div class="pillar-icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <span class="pillar-tag">20%</span>
+                        <h3>Vendas no Direct</h3>
+                        <p>Scripts e técnicas para fechar vendas pelo Instagram sem parecer desesperado.</p>
+                    </div>
+                    <div class="pillar-card reveal">
+                        <div class="pillar-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <span class="pillar-tag">20%</span>
+                        <h3>Posicionamento</h3>
+                        <p>Construa autoridade e seja visto como referência no seu nicho.</p>
+                    </div>
+                    <div class="pillar-card featured reveal">
+                        <div class="pillar-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <span class="pillar-tag special">15%</span>
+                        <h3>Mentalidade</h3>
+                        <p>Disciplina, consistência e o mindset necessário para crescer de verdade.</p>
+                        <div class="pillar-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What's Included Section -->
+        <section class="included" id="comunidade">
+            <div class="container">
+                <div class="included-header reveal">
+                    <span class="section-tag">O QUE VOCÊ RECEBE</span>
+                    <h2 class="section-title">
+                        Dentro da <span class="text-gradient">Virtus Elite</span>
+                    </h2>
+                </div>
+                <div class="included-grid">
+                    <div class="included-main reveal">
+                        <div class="included-card large">
+                            <div class="card-badge">ACESSO PRINCIPAL</div>
+                            <div class="card-icon-large">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                            <h3>Área de Membros Completa</h3>
+                            <p>+30 aulas organizadas em módulos estratégicos. Do básico ao avançado.</p>
+                            <ul class="card-list">
+                                <li><i class="fas fa-check"></i> Módulo de Reels Estratégicos</li>
+                                <li><i class="fas fa-check"></i> Módulo de Marketing Digital</li>
+                                <li><i class="fas fa-check"></i> Módulo de Vendas no Direct</li>
+                                <li><i class="fas fa-check"></i> Módulo de Posicionamento</li>
+                                <li><i class="fas fa-check"></i> Módulo de Mentalidade</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="included-side reveal">
+                        <div class="included-card">
+                            <div class="card-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>Comunidade Exclusiva</h4>
+                            <p>Grupo fechado para networking, dúvidas e troca de experiências.</p>
+                        </div>
+                        <div class="included-card">
+                            <div class="card-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <h4>Lives Semanais</h4>
+                            <p>Encontros ao vivo para tirar dúvidas e aprofundar nos temas.</p>
+                        </div>
+                        <div class="included-card">
+                            <div class="card-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <h4>Materiais e Templates</h4>
+                            <p>Roteiros prontos, checklists, planilhas e swipe files.</p>
+                        </div>
+                        <div class="included-card">
+                            <div class="card-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h4>Desafios Mensais</h4>
+                            <p>Missões práticas para você executar e ter resultados reais.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bonus Section -->
+        <section class="bonus">
+            <div class="container">
+                <div class="bonus-header reveal">
+                    <span class="section-tag">BÔNUS EXCLUSIVOS</span>
+                    <h2 class="section-title">
+                        E ainda tem <span class="text-gradient">mais</span>
+                    </h2>
+                </div>
+                <div class="bonus-carousel">
+                    <div class="carousel-fade-left"></div>
+                    <div class="carousel-fade-right"></div>
+                    <div class="bonus-track" id="bonusTrack">
+                        <div class="bonus-card">
+                            <div class="bonus-value">R$ 97</div>
+                            <div class="bonus-icon"><i class="fas fa-file-video"></i></div>
+                            <h4>Pack 30 Roteiros de Reels</h4>
+                            <p>Modelos prontos para você apenas adaptar e postar.</p>
+                        </div>
+                        <div class="bonus-card">
+                            <div class="bonus-value">R$ 67</div>
+                            <div class="bonus-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <h4>Templates de Stories</h4>
+                            <p>Sequências de stories que convertem em vendas.</p>
+                        </div>
+                        <div class="bonus-card">
+                            <div class="bonus-value">R$ 47</div>
+                            <div class="bonus-icon"><i class="fas fa-comment-dots"></i></div>
+                            <h4>Scripts de Direct</h4>
+                            <p>Mensagens prontas para abordar e fechar clientes.</p>
+                        </div>
+                        <div class="bonus-card">
+                            <div class="bonus-value">R$ 37</div>
+                            <div class="bonus-icon"><i class="fas fa-lightbulb"></i></div>
+                            <h4>Banco de 100 Ganchos</h4>
+                            <p>Ideias de ganchos validados para você usar.</p>
+                        </div>
+                        <div class="bonus-card">
+                            <div class="bonus-value">R$ 47</div>
+                            <div class="bonus-icon"><i class="fas fa-calendar-alt"></i></div>
+                            <h4>Planilha de Planejamento</h4>
+                            <p>Organize seu conteúdo da semana em minutos.</p>
+                        </div>
+                        <!-- Duplicados para loop -->
+                        <div class="bonus-card">
+                            <div class="bonus-value">R$ 97</div>
+                            <div class="bonus-icon"><i class="fas fa-file-video"></i></div>
+                            <h4>Pack 30 Roteiros de Reels</h4>
+                            <p>Modelos prontos para você apenas adaptar e postar.</p>
+                        </div>
+                        <div class="bonus-card">
+                            <div class="bonus-value">R$ 67</div>
+                            <div class="bonus-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <h4>Templates de Stories</h4>
+                            <p>Sequências de stories que convertem em vendas.</p>
+                        </div>
+                        <div class="bonus-card">
+                            <div class="bonus-value">R$ 47</div>
+                            <div class="bonus-icon"><i class="fas fa-comment-dots"></i></div>
+                            <h4>Scripts de Direct</h4>
+                            <p>Mensagens prontas para abordar e fechar clientes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bonus-total reveal">
+                    <p>Total em bônus: <span class="old-price">R$ 295</span></p>
+                    <p class="free">Incluído <strong>GRÁTIS</strong> na sua assinatura</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- For Who Section -->
+        <section class="for-who">
+            <div class="container">
+                <div class="for-who-header reveal">
+                    <h2 class="section-title">
+                        A Virtus Elite é para <span class="text-gradient">você?</span>
+                    </h2>
+                </div>
+                <div class="for-who-grid">
+                    <div class="for-who-card yes reveal">
+                        <div class="card-header">
+                            <i class="fas fa-check"></i>
+                            <span>Sim, se você...</span>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Quer vender pelo Instagram de forma consistente</li>
+                            <li><i class="fas fa-check-circle"></i> Está cansado de postar sem resultado</li>
+                            <li><i class="fas fa-check-circle"></i> Quer aprender a criar Reels que vendem</li>
+                            <li><i class="fas fa-check-circle"></i> Busca uma comunidade para crescer junto</li>
+                            <li><i class="fas fa-check-circle"></i> Está disposto a executar e não só consumir</li>
+                            <li><i class="fas fa-check-circle"></i> É prestador de serviço, infoprodutor ou coach</li>
+                        </ul>
+                    </div>
+                    <div class="for-who-card no reveal">
+                        <div class="card-header">
+                            <i class="fas fa-times"></i>
+                            <span>Não, se você...</span>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-times-circle"></i> Busca dinheiro fácil sem esforço</li>
+                            <li><i class="fas fa-times-circle"></i> Não vai assistir as aulas e participar</li>
+                            <li><i class="fas fa-times-circle"></i> Acha que só entrar resolve seus problemas</li>
+                            <li><i class="fas fa-times-circle"></i> Não tem paciência para construir resultado</li>
+                            <li><i class="fas fa-times-circle"></i> Quer fazer dancinhas e trends vazias</li>
+                            <li><i class="fas fa-times-circle"></i> Não respeita a comunidade e os membros</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing" id="preco">
+            <div class="pricing-glow"></div>
+            <div class="container">
+                <div class="pricing-header reveal">
+                    <span class="section-tag">INVESTIMENTO</span>
+                    <h2 class="section-title">
+                        Entre agora para a <span class="text-gradient">Virtus Elite</span>
+                    </h2>
+                </div>
+                <div class="pricing-box reveal">
+                    <div class="pricing-badge">
+                        <i class="fas fa-bolt"></i>
+                        <span>Oferta de Lançamento</span>
+                    </div>
+                    <div class="pricing-content">
+                        <div class="pricing-left">
+                            <h3>Acesso Completo</h3>
+                            <p>Tudo que você precisa para dominar o Instagram e vender todos os dias.</p>
+                            <ul class="pricing-list">
+                                <li><i class="fas fa-check"></i> Área de membros com +30 aulas</li>
+                                <li><i class="fas fa-check"></i> Comunidade exclusiva</li>
+                                <li><i class="fas fa-check"></i> Lives semanais</li>
+                                <li><i class="fas fa-check"></i> Todos os bônus (R$ 295)</li>
+                                <li><i class="fas fa-check"></i> Atualizações gratuitas</li>
+                                <li><i class="fas fa-check"></i> Suporte na comunidade</li>
+                            </ul>
+                            <div class="guarantee">
+                                <i class="fas fa-shield-alt"></i>
+                                <div>
+                                    <strong>Garantia de 7 dias</strong>
+                                    <span>Se não gostar, devolvemos 100% do seu dinheiro.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-right">
+                            <div class="price-old">
+                                <span>De <s>R$ 997</s></span>
+                            </div>
+                            <div class="price-main">
+                                <span class="currency">R$</span>
+                                <span class="value">397</span>
+                            </div>
+                            <div class="price-installment">
+                                ou <strong>12x de R$ 39</strong>
+                            </div>
+                            <a href="https://pay.hotmart.com/SEU-LINK" target="_blank" class="btn-cta">
+                                <span>Quero Entrar Agora</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <div class="payment-methods">
+                                <i class="fab fa-cc-visa"></i>
+                                <i class="fab fa-cc-mastercard"></i>
+                                <i class="fab fa-pix"></i>
+                                <i class="fas fa-barcode"></i>
+                            </div>
+                            <p class="secure-text">
+                                <i class="fas fa-lock"></i>
+                                Pagamento 100% seguro
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="faq-header reveal">
+                    <h2 class="section-title">Dúvidas <span class="text-gradient">Frequentes</span></h2>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item reveal">
+                        <button class="faq-question">
+                            <span>Por quanto tempo tenho acesso?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Você tem acesso por 1 ano completo. Após esse período, pode renovar com condições especiais de membro.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal">
+                        <button class="faq-question">
+                            <span>Funciona para qualquer nicho?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sim! O método de Reels Estratégicos funciona para qualquer nicho que use o Instagram para atrair clientes: coaches, mentores, prestadores de serviço, infoprodutores, etc.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal">
+                        <button class="faq-question">
+                            <span>Preciso ter muitos seguidores?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Não! O método funciona mesmo com poucos seguidores. O foco é atrair as pessoas certas, não milhares de seguidores vazios.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal">
+                        <button class="faq-question">
+                            <span>E se eu não gostar?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Você tem 7 dias de garantia incondicional. Se não gostar do conteúdo, basta pedir o reembolso que devolvemos 100% do valor, sem perguntas.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal">
+                        <button class="faq-question">
+                            <span>Como funciona a comunidade?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>A comunidade funciona em uma plataforma exclusiva onde você pode tirar dúvidas, participar das lives, fazer networking com outros membros e ter acesso a conteúdos extras.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal">
+                        <button class="faq-question">
+                            <span>Consigo conciliar com meu trabalho?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sim! As aulas são gravadas e você assiste quando puder. As lives ficam gravadas também. Você faz no seu ritmo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="final-cta">
+            <div class="final-glow"></div>
+            <div class="container reveal">
+                <h2>Sua transformação começa <span class="text-gradient">agora</span></h2>
+                <p>Entre para a Virtus Elite e aprenda a vender todos os dias usando Reels estratégicos.</p>
+                <a href="https://pay.hotmart.com/SEU-LINK" target="_blank" class="btn-primary large">
+                    <span>Entrar na Virtus Elite</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <span class="final-note">7 dias de garantia • Acesso imediato • Suporte completo</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">V</span>
+                    <span class="logo-text">Virtus<span class="gold">Elite</span></span>
+                </div>
+                <p class="footer-tagline">Transformando conteúdo em clientes.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Virtus Elite. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
